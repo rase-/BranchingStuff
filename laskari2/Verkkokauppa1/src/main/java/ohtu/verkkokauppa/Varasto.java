@@ -1,13 +1,17 @@
 package ohtu.verkkokauppa;
 
 import java.util.*;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+@Component
 public class Varasto implements Varastoiva {
 
     
     private Kirjaapitava kirjanpito;
     private HashMap<Tuote, Integer> saldot;  
     
+    @Autowired
     public Varasto(Kirjaapitava kirjaapitava) {
         kirjanpito = kirjaapitava;
         saldot = new HashMap<Tuote, Integer>();
