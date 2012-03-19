@@ -59,7 +59,7 @@ public class StatisticsTest {
     
     @Test
     public void playerFoundReturnsRightPlayer() {
-        assertEquals("semenko", stats.search("Semenko").getName());
+        assertEquals("Semenko", stats.search("Semenko").getName());
     }
     
     @Test
@@ -69,15 +69,15 @@ public class StatisticsTest {
     
     @Test
     public void teamReturnsEmptyListWhenTeamNotFound() {
-        assertEquals(0, stats.team("EDM").size());
+        assertEquals(0, stats.team("ADS").size());
     }
     @Test
     public void topScoresReturnsRightAmountOfPlayers() {
-        assertEquals(2, stats.topScorers(2));
+        assertEquals(3, stats.topScorers(2).size());
     }
     @Test
     public void topScoresReturnsRightPlayerWithOne() {
-        assertEquals("Lemieux", stats.topScorers(1).get(0).getName());
+        assertEquals("Gretzky", stats.topScorers(1).get(0).getName());
     }
     @Test
     public void topScoresReturnsRightOrderWithTwoPlayers() {
