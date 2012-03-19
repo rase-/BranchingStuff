@@ -8,8 +8,8 @@ public class Main {
 
     public static void main(String[] args) {
         ApplicationContext ctx = new FileSystemXmlApplicationContext("src/main/resources/spring-context.xml");
-
-        Kauppa kauppa = (Kauppa) ctx.getBean("kauppa");
+        
+        Kauppa kauppa = ctx.getBean(Kauppa.class);
         // kauppa hoitaa yhden asiakkaan kerrallaan seuraavaan tapaan:
         kauppa.aloitaAsiointi();
         kauppa.lisaaKoriin(1);
