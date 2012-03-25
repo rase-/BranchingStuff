@@ -20,7 +20,6 @@ import org.springframework.stereotype.Component;
  *
  * @author tonykovanen
  */
-
 @Component
 public class FileUserDao implements UserDao {
 
@@ -66,8 +65,12 @@ public class FileUserDao implements UserDao {
     @Override
     public void add(User user) {
         try {
+            List<User> users = listAll();
+            users.add(user);
             FileWriter writer = new FileWriter(file);
-            writer.append(user.getUsername()  + " " + user.getPassword() + "\n");
+            for (User u : users) {
+                writer.write(u.getUsername() + " " + u.getPassword() + "\n");
+            }
             writer.close();
         } catch (IOException ex) {
             Logger.getLogger(FileUserDao.class.getName()).log(Level.SEVERE, null, ex);
