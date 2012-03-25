@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.5">
+<file name="/Users/tonykovanen/ohtu/ohtu2012/viikko2/Annotaatio/src/main/java/ohtu/Main.java">
+<error line="9" column="5" severity="error" message="Cyclomatic Complexity is 9 (max allowed is 3)." source="com.puppycrawl.tools.checkstyle.checks.metrics.CyclomaticComplexityCheck"/>
+<error line="9" column="5" severity="error" message="Method length is 46 lines (max allowed is 10)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="35" column="41" severity="error" message="Nested for depth is 2 (max allowed is 1)." source="com.puppycrawl.tools.checkstyle.checks.coding.NestedForDepthCheck"/>
+<error line="55" column="9" severity="error" message="Cyclomatic Complexity is 21 (max allowed is 3)." source="com.puppycrawl.tools.checkstyle.checks.metrics.CyclomaticComplexityCheck"/>
+<error line="55" column="9" severity="error" message="Method length is 58 lines (max allowed is 10)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+</file>
+<file name="/Users/tonykovanen/ohtu/ohtu2012/viikko2/Annotaatio/src/main/java/ohtu/verkkokauppa/Kauppa.java">
+</file>
+<file name="/Users/tonykovanen/ohtu/ohtu2012/viikko2/Annotaatio/src/main/java/ohtu/verkkokauppa/Kirjaapitava.java">
+</file>
+<file name="/Users/tonykovanen/ohtu/ohtu2012/viikko2/Annotaatio/src/main/java/ohtu/verkkokauppa/Kirjanpito.java">
+</file>
+<file name="/Users/tonykovanen/ohtu/ohtu2012/viikko2/Annotaatio/src/main/java/ohtu/verkkokauppa/Ostoskori.java">
+</file>
+<file name="/Users/tonykovanen/ohtu/ohtu2012/viikko2/Annotaatio/src/main/java/ohtu/verkkokauppa/Pankki.java">
+</file>
+<file name="/Users/tonykovanen/ohtu/ohtu2012/viikko2/Annotaatio/src/main/java/ohtu/verkkokauppa/Pankkiva.java">
+</file>
+<file name="/Users/tonykovanen/ohtu/ohtu2012/viikko2/Annotaatio/src/main/java/ohtu/verkkokauppa/Tuote.java">
+</file>
+<file name="/Users/tonykovanen/ohtu/ohtu2012/viikko2/Annotaatio/src/main/java/ohtu/verkkokauppa/Varasto.java">
+</file>
+<file name="/Users/tonykovanen/ohtu/ohtu2012/viikko2/Annotaatio/src/main/java/ohtu/verkkokauppa/Varastoiva.java">
+</file>
+<file name="/Users/tonykovanen/ohtu/ohtu2012/viikko2/Annotaatio/src/main/java/ohtu/verkkokauppa/Viitegeneraattori.java">
+</file>
+<file name="/Users/tonykovanen/ohtu/ohtu2012/viikko2/Annotaatio/src/main/java/ohtu/verkkokauppa/Viitteitageneroiva.java">
+</file>
+<file name="/Users/tonykovanen/ohtu/ohtu2012/viikko2/Annotaatio/src/main/java/ohtu/Main.java">
+<error line="56" severity="error" message="Found duplicate of 27 lines in /Users/tonykovanen/ohtu/ohtu2012/viikko2/Annotaatio/src/main/java/ohtu/Main.java, starting from line 78" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="64" severity="error" message="Found duplicate of 16 lines in /Users/tonykovanen/ohtu/ohtu2012/viikko2/Annotaatio/src/main/java/ohtu/Main.java, starting from line 67" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="64" severity="error" message="Found duplicate of 17 lines in /Users/tonykovanen/ohtu/ohtu2012/viikko2/Annotaatio/src/main/java/ohtu/Main.java, starting from line 95" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="64" severity="error" message="Found duplicate of 19 lines in /Users/tonykovanen/ohtu/ohtu2012/viikko2/Annotaatio/src/main/java/ohtu/Main.java, starting from line 89" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="64" severity="error" message="Found duplicate of 19 lines in /Users/tonykovanen/ohtu/ohtu2012/viikko2/Annotaatio/src/main/java/ohtu/Main.java, starting from line 92" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="67" severity="error" message="Found duplicate of 16 lines in /Users/tonykovanen/ohtu/ohtu2012/viikko2/Annotaatio/src/main/java/ohtu/Main.java, starting from line 86" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="86" severity="error" message="Found duplicate of 17 lines in /Users/tonykovanen/ohtu/ohtu2012/viikko2/Annotaatio/src/main/java/ohtu/Main.java, starting from line 95" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="86" severity="error" message="Found duplicate of 20 lines in /Users/tonykovanen/ohtu/ohtu2012/viikko2/Annotaatio/src/main/java/ohtu/Main.java, starting from line 92" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="86" severity="error" message="Found duplicate of 23 lines in /Users/tonykovanen/ohtu/ohtu2012/viikko2/Annotaatio/src/main/java/ohtu/Main.java, starting from line 89" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+</file>
+<file name="/Users/tonykovanen/ohtu/ohtu2012/viikko2/Annotaatio/src/main/java/ohtu/verkkokauppa/Kauppa.java">
+</file>
+<file name="/Users/tonykovanen/ohtu/ohtu2012/viikko2/Annotaatio/src/main/java/ohtu/verkkokauppa/Kirjaapitava.java">
+</file>
+<file name="/Users/tonykovanen/ohtu/ohtu2012/viikko2/Annotaatio/src/main/java/ohtu/verkkokauppa/Kirjanpito.java">
+</file>
+<file name="/Users/tonykovanen/ohtu/ohtu2012/viikko2/Annotaatio/src/main/java/ohtu/verkkokauppa/Ostoskori.java">
+</file>
+<file name="/Users/tonykovanen/ohtu/ohtu2012/viikko2/Annotaatio/src/main/java/ohtu/verkkokauppa/Pankki.java">
+</file>
+<file name="/Users/tonykovanen/ohtu/ohtu2012/viikko2/Annotaatio/src/main/java/ohtu/verkkokauppa/Pankkiva.java">
+</file>
+<file name="/Users/tonykovanen/ohtu/ohtu2012/viikko2/Annotaatio/src/main/java/ohtu/verkkokauppa/Tuote.java">
+</file>
+<file name="/Users/tonykovanen/ohtu/ohtu2012/viikko2/Annotaatio/src/main/java/ohtu/verkkokauppa/Varasto.java">
+</file>
+<file name="/Users/tonykovanen/ohtu/ohtu2012/viikko2/Annotaatio/src/main/java/ohtu/verkkokauppa/Varastoiva.java">
+</file>
+<file name="/Users/tonykovanen/ohtu/ohtu2012/viikko2/Annotaatio/src/main/java/ohtu/verkkokauppa/Viitegeneraattori.java">
+</file>
+<file name="/Users/tonykovanen/ohtu/ohtu2012/viikko2/Annotaatio/src/main/java/ohtu/verkkokauppa/Viitteitageneroiva.java">
+</file>
+</checkstyle>
