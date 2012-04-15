@@ -59,7 +59,10 @@ public class OhtuController {
             return "user";
         }
 
-        auth.createUser(user.getUsername(), user.getPassword());
+        if (!auth.createUser(user.getUsername(), user.getPassword())) {
+            result.addError(new FieldError("user", "username", "user already exists or password requirements not met"));
+            return "user";
+        }
 
         return "redirect:/newUser";
     }

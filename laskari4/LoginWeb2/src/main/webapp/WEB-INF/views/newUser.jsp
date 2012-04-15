@@ -1,4 +1,4 @@
-
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -11,7 +11,7 @@
 
         <ul>
             <li><a href="http://olutopas.info">info for newbie</a></li>
-            <li><a href="ohtu">continue to application mainpage</a></li>
+            <li><a href=<c:url value="/ohtu" />>continue to application mainpage</a></li>
         </ul>
     </body>
 </html>

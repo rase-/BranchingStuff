@@ -149,4 +149,6 @@ public class KauppaTest {
         verify(mockPankki).maksa(anyString(), anyInt(), eq(3));           
 
     }
+    
+    
 }

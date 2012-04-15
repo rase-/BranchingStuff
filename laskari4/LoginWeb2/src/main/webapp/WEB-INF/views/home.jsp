@@ -1,4 +1,4 @@
-
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -10,8 +10,8 @@
         <h1>Ohtu App</h1>
 
         <ul>
-            <li><a href="login">login</a></li>
-            <li><a href="user">register new user</a></li>
+            <li><a href=<c:url value="/login" />>login</a></li>
+            <li><a href=<c:url value="/user" />>register new user</a></li>
 
         </ul>
     </body>

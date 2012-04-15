@@ -13,7 +13,7 @@
         <p><em>${message}</em></p>
         </div>
         
-        <sf:form method="POST" modelAttribute="user" action="/login" >
+        <sf:form method="POST" modelAttribute="user" action="${pageContext.request.contextPath}/login" >
             <fieldset>
                 username: <sf:input path="username" id="username" size="15"/>
                 <sf:errors path="username" />   

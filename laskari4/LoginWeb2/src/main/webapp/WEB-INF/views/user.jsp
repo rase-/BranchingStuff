@@ -1,4 +1,5 @@
 <%@taglib prefix="sf" uri="http://www.springframework.org/tags/form"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -9,7 +10,7 @@
     <body>
         <h1>Create username and give password</h1>
 
-        <sf:form method="POST" modelAttribute="user" action="/user" >
+        <sf:form method="POST" modelAttribute="user" action="${pageContext.request.contextPath}/user">
             <fieldset>
                 username: <sf:input path="username" id="username" size="15"/>
                 <sf:errors path="username" cssClass="error"/>   
@@ -24,6 +25,6 @@
             </fieldset>
         </sf:form>  
 
-        <p><a href="/">back to home</a></p>
+        <p><a href=<c:url value="/" />>back to home</a></p>
     </body>
 </html>
